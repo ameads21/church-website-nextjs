@@ -10,6 +10,8 @@ const meetTheMissionaries = () => {
           src="https://news-au.churchofjesuschrist.org/media/960x540/missionary-training-center-walk.jpg"
           alt="missionary-picture"
           className="rounded img-thumbnail w-75"
+          width="1000"
+          height="1000"
         />
         <p className="mt-3 w-50 mx-auto">
           If you would like to schedule a member message with the missionaries,

@@ -35,6 +35,8 @@ export default function Home() {
               className="img-fluid"
               src="https://assets.ldscdn.org/25/5a/255ae4830a02857fb7555d7c6d5ee8f2dd989db0/jesus_fulfillment_isaiahs_prophecy.jpeg"
               alt=""
+              width="500"
+              height="500"
             />
           </div>
           <div className="col-md-6 text-center">
@@ -61,6 +63,8 @@ export default function Home() {
               className="img-fluid"
               src="https://assets.ldscdn.org/d0/1e/d01e054d469ddbd74cccfe0436617470c887dcce/portugal_sisters_missionaries_work_missionary.jpeg"
               alt=""
+              width="500"
+              height="500"
             />
           </div>
           <div className="col-md-6 text-center">
@@ -77,6 +81,8 @@ export default function Home() {
               className="img-fluid"
               src="https://assets.ldscdn.org/d0/1e/d01e054d469ddbd74cccfe0436617470c887dcce/portugal_sisters_missionaries_work_missionary.jpeg"
               alt=""
+              width="500"
+              height="500"
             />
           </div>
         </div>
