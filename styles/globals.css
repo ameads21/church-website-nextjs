@@ -46,6 +46,7 @@ td:hover {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  margin: 0;
 }
 
 .navbarLinksContainer a{
@@ -57,7 +58,6 @@ td:hover {
 .hero-text {
   text-align: center;
   color: white;
-  margin: 0px 20px
 }
 
 .main-hero-text {
