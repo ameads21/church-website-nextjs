@@ -30,7 +30,7 @@ export default function Home() {
       <div className="container">
         <div className="row mt-4 mb-5 shadow p-3 mb-5 bg-white rounded">
           <div className="col-md-6">
-            <img
+            <Image
               className="img-fluid"
               src="https://assets.ldscdn.org/25/5a/255ae4830a02857fb7555d7c6d5ee8f2dd989db0/jesus_fulfillment_isaiahs_prophecy.jpeg"
               alt=""
@@ -42,9 +42,12 @@ export default function Home() {
               By using the software zoom, you will have the ability to broadcast
               up to 40 minutes with up to 100 participants per broadcast.
             </p>
-            <a href="/zoom-instructions" className="btn btn-lg btn-secondary">
+            <Link
+              href="/zoom-instructions"
+              className="btn btn-lg btn-secondary"
+            >
               Instructions
-            </a>
+            </Link>
           </div>
         </div>
 
@@ -53,7 +56,7 @@ export default function Home() {
           style={{ marginTop: "100px", paddingBottom: "100px" }}
         >
           <div className="d-md-none">
-            <img
+            <Image
               className="img-fluid"
               src="https://assets.ldscdn.org/d0/1e/d01e054d469ddbd74cccfe0436617470c887dcce/portugal_sisters_missionaries_work_missionary.jpeg"
               alt=""
@@ -69,7 +72,7 @@ export default function Home() {
             </p>
           </div>
           <div className="col-md-6 d-md-block d-none">
-            <img
+            <Image
               className="img-fluid"
               src="https://assets.ldscdn.org/d0/1e/d01e054d469ddbd74cccfe0436617470c887dcce/portugal_sisters_missionaries_work_missionary.jpeg"
               alt=""

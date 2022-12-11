@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Sacrament = () => {
   return (
     <div className="hero-sacrament text-center">
@@ -19,14 +21,14 @@ const Sacrament = () => {
             <br />
             <br />
             <h4>Sacrament Meeting starts at 12:00 PM</h4>
-            <a
+            <Link
               className="btn btn-lg btn-secondary mt-3"
               href="https://zoom.us/j/98704447539?pwd=UWZ6NE9uallFT0pXaExDenp1Ulk4Zz09"
               target="_blank"
               rel="noreferrer"
             >
               Join Zoom with passcode
-            </a>
+            </Link>
           </div>
         </div>
       </div>

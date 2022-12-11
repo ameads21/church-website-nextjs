@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 const meetTheMissionaries = () => {
   return (
     <div className="container">
       <h1 className="text-center mt-5">Meet The missionaries</h1>
       <div className="text-center mt-3">
-        <img
+        <Image
           src="https://news-au.churchofjesuschrist.org/media/960x540/missionary-training-center-walk.jpg"
           alt="missionary-picture"
           className="rounded img-thumbnail w-75"
@@ -23,13 +25,13 @@ const meetTheMissionaries = () => {
             }
           </i>
         </p>
-        <a
+        <Link
           href="https://docs.google.com/spreadsheets/d/1RR-gzYpH6ic-8Z4MWOkP4SytKTq8gUHpGEUydIcyYZw/edit#gid=672986660"
           target="_blank"
           rel="noopener noreferrer"
         >
           Schedule a spiritual message here
-        </a>
+        </Link>
       </div>
     </div>
   );
