@@ -5,7 +5,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: "https",
-        hostname: "**.churchofjesuschrist.org",
+        hostname: ["**.churchofjesuschrist.org", "**.ldscdn.org"],
       },
     ],
   },
