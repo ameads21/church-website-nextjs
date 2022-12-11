@@ -5,11 +5,12 @@ const zoomInstructions = () => {
       <div className="row mt-5 text-center">
         <div className="col">
           <h4 className="mb-4">Step 1 - Create an account</h4>
-          <p>If you don't have one already, create a free Zoom account.</p>
+          <p>{"If you don't have one already, create a free Zoom account."}</p>
           <a
             className="btn btn-success"
             href="https://zoom.us/signup"
             target="_blank"
+            rel="noreferrer"
           >
             Sign Up Here
           </a>
@@ -21,6 +22,7 @@ const zoomInstructions = () => {
             className="btn btn-success"
             href="https://zoom.us/download"
             target="_blank"
+            rel="noreferrer"
           >
             Download Here
           </a>

@@ -18,11 +18,9 @@ const meetTheMissionaries = () => {
         </p>
         <p>
           <i>
-            Monday is the missionaries p-day so if you want to sign up on
-            Monday, they only share messages from 6:00-8:30 pm. You will receive
-            a reminder text closer to the date you've selected to confirm that
-            day works for you. Our number is (801) 410-3606 call or text us if
-            you have any question we will try our best to help you.
+            {
+              "Monday is the missionaries p-day so if you want to sign up on Monday, they only share messages from 6:00-8:30 pm. You will receive a reminder text closer to the date you've selected to confirm that day works for you. Our number is (801) 410-3606 call or text us if you have any question we will try our best to help you."
+            }
           </i>
         </p>
         <a

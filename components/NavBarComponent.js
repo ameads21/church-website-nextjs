@@ -14,12 +14,17 @@ function NavBarComponent() {
           <Link href="/">Home</Link>
           <Link href="/sacrament">Sacrament</Link>
           <Link href="/contact">Contact</Link>
-          <Link target={"_blank"} href="https://chstake.youcanbook.me/">
+          <Link
+            target={"_blank"}
+            rel="noreferrer"
+            href="https://chstake.youcanbook.me/"
+          >
             Stake Temple Recommend Scheduling
           </Link>
           <Link href="/meet-the-missionaries">Meet the missionaries</Link>
           <Link
             target={"_blank"}
+            rel="noreferrer"
             href="https://www.signupgenius.com/go/9040D4BA4AD2CA4FC1-2022"
           >
             Tithing Declaration
