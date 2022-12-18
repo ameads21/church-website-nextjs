@@ -66,7 +66,7 @@ const SacramentDialog = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Join Zoom{globals.restrictSacramentMeeting === true && ( with passcode)}
+          Join Zoom{globals.restrictSacramentMeeting === true && (<span> with passcode</span>)}
         </Link>
       </div>
     );
