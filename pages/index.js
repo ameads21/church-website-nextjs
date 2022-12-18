@@ -12,7 +12,7 @@ export default function Home() {
         className=""
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/1280x800/accra-ghana-temple-758797-wallpaper.jpg');",
+            "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/1280x800/accra-ghana-temple-758797-wallpaper.jpg')",
         }}
       >
         <div className="hero text-center">
