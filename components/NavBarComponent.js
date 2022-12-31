@@ -22,13 +22,6 @@ function NavBarComponent() {
             Stake Temple Recommend Scheduling
           </Link>
           <Link href="/meet-the-missionaries">Meet the missionaries</Link>
-          <Link
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://www.signupgenius.com/go/9040D4BA4AD2CA4FC1-2022"
-          >
-            Tithing Declaration
-          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
