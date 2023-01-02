@@ -29,6 +29,13 @@ function NavBarComponent() {
           >
             Tithing Declaration
           </Link>
+          <Link
+            target={"_blank"}
+            rel="noreferrer"
+            href="https://docs.google.com/spreadsheets/d/1pO-nT_GhQ6jxPnFW3CdfSMQ4beYirMl_/edit?usp=sharing&ouid=106043516097173347588&rtpof=true&sd=true"
+          >
+            Church Cleaning Schedule
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
