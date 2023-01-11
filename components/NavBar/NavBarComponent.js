@@ -2,6 +2,7 @@ import Link from "next/link";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
+
 function NavBarComponent() {
   return (
     <Navbar bg="light" expand="lg">
@@ -28,6 +29,9 @@ function NavBarComponent() {
             href="https://docs.google.com/spreadsheets/d/1pO-nT_GhQ6jxPnFW3CdfSMQ4beYirMl_/edit?usp=sharing&ouid=106043516097173347588&rtpof=true&sd=true"
           >
             Church Cleaning Schedule
+          </Link>
+          <Link href="/meetings/funeral-service">
+            Gus Hoffmans Funeral Service
           </Link>
         </Nav>
       </Navbar.Collapse>
