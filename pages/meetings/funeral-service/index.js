@@ -18,7 +18,7 @@ const FuneralServiceTab = () => {
                     <>
                         <p>Meeting starts at: 10:00 AM</p>
                         <div>
-                            <a href="https://zoom.us/j/92486126131" className="btn btn-primary mb-3 display-" target="_blank">
+                            <a href="https://zoom.us/j/92486126131" className="btn btn-primary mb-3" target="_blank" rel="noreferrer">
                                 Join with Zoom
                             </a>
                         </div>
