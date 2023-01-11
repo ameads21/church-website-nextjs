@@ -13,10 +13,10 @@ const FuneralServiceTab = () => {
         >
             <div className="text-center card">
                 <h3 className='mt-2'>Gus Hoffmans Funeral Service</h3>
-                <p className="mt-2">Meeting located at: Relief Society Room</p>
+                <p className="mt-2">Meeting located at: Chapel</p>
                 {scheduledDate.getDate() == currentDate.getDate() && (
                     <>
-                        <p>Meeting starts at: 10:00 AM</p>
+                        <p>Meeting starts at: 2:00 PM</p>
                         <div>
                             <a href="https://zoom.us/j/92486126131" className="btn btn-primary mb-3" target="_blank" rel="noreferrer">
                                 Join with Zoom
