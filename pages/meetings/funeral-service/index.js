@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 const FuneralServiceTab = () => {
     const currentDate = new Date();
-    const scheduledDate = new Date("2023-01-14");
+    const scheduledDate = new Date("2023-01-15");
     return (
         <div
             className={"mb-5 p-3 mb-5 bg-white rounded " + styles['funeralServiceContainer']}
