@@ -28,7 +28,7 @@ const FuneralServiceTab = () => {
                 {scheduledDate.getDate() != currentDate.getDate() && (
                     <>
                         <h3>It seems there isn't one scheduled today.</h3>
-                        <p>Next scheduled date: January 11th at 2:00 PM</p>
+                        <p>Next scheduled date: January 14th at 2:00 PM</p>
                     </>
                 )}
             </div>
