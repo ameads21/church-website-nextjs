@@ -5,8 +5,6 @@ import funeralImage from '../../../assets/images/funeralServiceImage.png'
 import Image from 'next/image';
 
 const FuneralServiceTab = () => {
-    const currentDate = new Date();
-    const scheduledDate = new Date("2023-01-15");
     return (
         <div
             className={"mb-5 p-3 mb-5 bg-white rounded " + styles['funeralServiceContainer']}
@@ -14,23 +12,13 @@ const FuneralServiceTab = () => {
             <div className="text-center card">
                 <h3 className='mt-2'>Gus Hoffmans Funeral Service</h3>
                 <p className="mt-2">Meeting located at: Chapel</p>
-                {scheduledDate.getDate() == currentDate.getDate() && (
-                    <>
-                        <p>Meeting starts at: 2:00 PM</p>
-                        <div>
-                            <a href="https://zoom.us/j/92486126131" className="btn btn-primary mb-3" target="_blank" rel="noreferrer">
-                                Join with Zoom
-                            </a>
-                        </div>
 
-                    </>
-                )}
-                {scheduledDate.getDate() != currentDate.getDate() && (
-                    <>
-                        <h3>It seems there isn't one scheduled today.</h3>
-                        <p>Next scheduled date: January 14th at 2:00 PM</p>
-                    </>
-                )}
+                <p>Meeting starts at: 2:00 PM</p>
+                <div>
+                    <a href="https://zoom.us/j/92486126131" className="btn btn-primary mb-3" target="_blank" rel="noreferrer">
+                        Join with Zoom
+                    </a>
+                </div>
             </div>
             <div className='row'>
                 <div className='mx-auto mt-5 mb-5 col-12 col-md-4'>
