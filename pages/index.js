@@ -24,13 +24,6 @@ export default function Home() {
             >
               Sacrament
             </Link>
-            <div />
-            <Link
-              className="btn btn-md btn-secondary mt-3 mr-2"
-              href="/meetings/funeral-service"
-            >
-              Gus Hoffmans <br /> Funeral Service
-            </Link>
           </div>
         </div>
       </div>
