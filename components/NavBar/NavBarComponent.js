@@ -30,9 +30,6 @@ function NavBarComponent() {
           >
             Church Cleaning Schedule
           </Link>
-          <Link href="/meetings/funeral-service">
-            Gus Hoffmans Funeral Service
-          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
