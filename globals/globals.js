@@ -1,5 +1,5 @@
 const globals = {
-  restrictSacramentMeeting: true,
+  restrictSacramentMeeting: false,
   sacramentMeetingTime: "9:00 AM",
   excludeSacramentDays: [],
 };
