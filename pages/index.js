@@ -7,6 +7,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Cedar Hills 12th Ward</title>
+        <meta name="google-site-verification" content="kekXZ_ccDIzDvEUeqt590S1NCj5iPy28xqM6G3cn19U" />
       </Head>
       <div
         className=""
